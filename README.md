@@ -60,3 +60,4 @@ How to run the script that visualizes entire point clouds of different datasets:
 python pointcloud_viewer.py -d <path_to_where_you_store_your_datasets>
 ```
 
+### This repository is based on https://github.com/MartinHahner/LiDAR_fog_sim.git
