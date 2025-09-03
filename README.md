@@ -8,6 +8,7 @@
     ├── integral_lookup_tables              # contains lookup tables to speed up the fog simulation
     │   └── ... 
     ├── extract_fog.py                      # to extract real fog noise* from the SeeingThroughFog dataset
+    ├── dualradar_fog.py                    # to realtime extract real fog noise* from the RSLidar dataset
     ├── fog_simulation.py                   # to augment a clear weather pointcloud with artificial fog (used during training)
     ├── generate_integral_lookup_table.py   # to precompute the integral inside the fog equation
     ├── pointcloud_viewer.py                # to visualize entire point clouds of different datasets with the option to augment fog into their scenes
